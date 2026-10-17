@@ -5,8 +5,7 @@
 pip install -r requirements.txt
 python train_model.py Student_Depression_Dataset.csv   # creates model.joblib (run once)
 streamlit run app.py
-``
-#step1
+```
 Put `Student_Depression_Dataset.csv` in the same folder as `train_model.py`.
 
 ## Deploy free on Streamlit Community Cloud
